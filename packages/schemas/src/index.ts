@@ -1,0 +1,9 @@
+export type CaseMetal = "steel" | "titanium" | "rose-alloy" | "ceramic";
+export type DialFinish = "obsidian-sunburst" | "ivory-enamel" | "gunmetal-matte" | "ruby-lacquer";
+export type StrapKind = "leather" | "rubber" | "bracelet";
+export type Complication = "date" | "moon" | "power";
+export type Selections = { caseMetal: CaseMetal; dial: DialFinish; strap: StrapKind; complications: Complication[]; engraving: string[] };
+export type Material = { id: string; label: string; kind: "case" | "dial"; color: string; metalness: number; roughness: number; envIntensity: number; price: number; note: string };
+export type PartInfo = { name: string; label: string; group: string; axis: [number, number, number]; dist: number; note: string };
+export type Configuration = { id: string; productId: string; selections: Selections; price: number; ref: string; createdAt: string };
+export type Commission = { id: string; configurationId: string; customerEmail: string; notes: string; status: "requested"; createdAt: string };

@@ -1,0 +1,23 @@
+{
+ "tris": 7992,
+ "bytes": 187484,
+ "materials": [
+  "CaseMetal",
+  "DialSurface",
+  "Gilt",
+  "Glass",
+  "GoldTrim",
+  "Gunmetal",
+  "Leather",
+  "ModuleFace",
+  "MoonBlue",
+  "Rubber",
+  "Ruby",
+  "Steel"
+ ],
+ "missing": [],
+ "orphans": [],
+ "hands_pivot_on_axis": true,
+ "instanced_objects": 22,
+ "unique_instance_meshes": 2
+}
